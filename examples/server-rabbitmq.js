@@ -13,7 +13,7 @@ var nconf = require('nconf');
 var logger = require('bragi');
 var flattenObject = require('./util').flattenObject;
 
-require('./conf/configure')();
+require('../conf/configure')();
 
 var analytics = require('../lib/util/analytics');
 

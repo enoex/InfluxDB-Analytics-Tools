@@ -19,8 +19,8 @@ var MongoClient = require('mongodb').MongoClient,
 // ....
 
 // include libs
-var flatten = require('./lib/helpers').flatten;
-var analytics = require('./lib/analytics');
+var flatten = require('../lib/helpers').flatten;
+var analytics = require('../lib/analytics');
 
 // Connect to Mongo and get stats
 // --------------------------------------
